@@ -1,0 +1,523 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.container {}
+
+.background-image {
+    height: 100vh;
+    background-color: rgb(50, 50, 50);
+    position: relative;
+    border-bottom: 3px solid black;
+    box-shadow: 0px 7px 14px;
+}
+
+.header {
+    height:20vh;
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.input{
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgba(96, 95, 95, 0.514);
+    padding: 6px;
+    color: white;
+    display: flex;
+    justify-content:space-between;
+
+
+}
+.d-logo{
+    height: 50px;
+    width: 50px;
+}
+
+.d-logo img{
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(1px 2px  rgb(255, 218, 36));
+}
+
+
+.header ul li {
+    margin: 0px 9px;
+}
+
+.header a {
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: white;
+    font-weight: 600;
+}
+.information-section{
+    height:80vh;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+
+}
+
+.my-info {
+    height:270px;
+    color: white;
+    font-size: 23px;
+    /* border: 1px solid rgb(211, 73, 18); */
+    text-align:justify;
+    margin: 25px 0px 0px 17px;
+
+}
+
+.my-name{
+    color: rgb(255, 218, 36);
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.btn-contact {
+    width: 120px;
+    height: 45px;
+    /* border: 3px solid rgb(255, 218, 36); */
+    color: rgb(255, 218, 36);
+    background-color: rgb(50, 50, 50);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.github-icon{
+    position:fixed;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(255, 255, 255);
+    right: 3%;
+    top: 50%;
+    border-radius: 50%;
+    z-index: 255;
+}
+.github-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.my-image {
+    height: 450px;
+    /* width: 200px; */
+    background-size: cover;
+
+    /* border: 1px solid rgb(63, 4, 237); */
+
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0));
+
+
+}
+
+.about-section {
+    /* height: 1500px; */
+    width: 100%;
+    background-color: rgb(36, 37, 42);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.h-same {
+    font-size: 3.3rem;
+    color: white;
+}
+.about-head{
+    margin-top: 60px;
+    width: 80%;
+    /* height: 100vh; */
+    /* border: 1px solid rgb(212, 0, 255); */
+    color: white;
+    font-size: 20px;
+
+}
+
+.yellow{
+    color:rgb(255, 218, 36);
+}
+.h-skill{
+    margin-top: 80px;
+}
+
+.skill-container {
+    width: 80%;
+    /* border: 1px solid rgb(212, 0, 255); */
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+}
+.skill-container img{
+    height:70px;
+    width: 70px;
+    
+}
+
+.skill-card {
+    height: 220px;
+    width: 220px;
+    margin: 15px;
+    border-radius: 12px;
+    background-color:rgb(50, 50, 50);
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+
+
+}
+.skill-card:hover{
+    background-color:rgb(255, 218, 36);
+    transform: scale(1.06);
+
+}
+
+.btn-card {
+    padding: 4px;
+    height: 36px;
+    width: 92px;
+    border-radius: 6px;
+    background-color:rgb(255, 218, 36);
+    border: none;
+    margin: 50px 0px;
+    
+}
+.btn-card:hover{
+    background-color: rgb(255, 218, 36);
+}
+
+.experience-section {
+    /* height:100vh; */
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    border-top: 3px solid black;
+    box-shadow: 0px -7px 14px;
+    display: flex;
+    justify-content: center;
+    z-index: 35;
+    padding-bottom: 15px;
+    /* position: relative; */
+    /* transform: rotate(0deg); */
+    /* transition: 2s; */
+
+}
+
+/* .experience-section:hover{
+    transform: rotate(5deg);
+
+} */
+.experience-child {
+    margin-top: 60px;
+    /* height: 100vh; */
+    width: 55%;
+    /* border: 2px solid red; */
+    font-size: 18px;
+
+}
+.experience-child h4 , h3{
+    color: white;
+    margin: 10px 0px 3px 0px;
+}
+.experience-child p{
+    color: rgb(159, 159, 159);
+}
+
+
+.sun-rule {
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+
+
+}
+
+.design {
+    width: 22px;
+    /* height: 500px; */
+    /* border: 2px solid red; */
+    margin: 123px 12px 0px 0px;
+    /* position: absolute; */
+    /* left: 30px; */
+    /* top:30px; */
+    /* margin: 5px; */
+}
+
+.circle {
+    height: 17px;
+    width: 17px;
+    background-color: rgb(255, 218, 36);
+    border-radius: 50%;
+    margin: 10px 0px;
+    box-shadow: 1px 1px 12px 4px rgba(255, 166, 0, 0.551);
+}
+
+.line {
+    height: 140px;
+    width: 2.5px;
+    background-color: rgb(255, 255, 255);
+    margin: 3px 7px;
+}
+
+.project-section {
+    /* height: 900px; */
+    background-color: rgb(36, 37, 42);
+    /* z-index: 22; */
+    padding: 10px;
+
+}
+
+.project-content-outer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.project-card {
+    position:relative;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    /* border: 2px solid red; */
+
+}
+
+.project-card img{
+    z-index: 14;
+    height:100%;
+    width:100%;
+    position: absolute;
+}
+.show-project{
+    z-index: 13;
+    height: 300px;
+    position: absolute;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    padding: 10px;
+
+}
+.project-card:hover .show-project{
+    z-index: 15;
+    background-color: rgba(28, 27, 27, 0.501);
+    backdrop-filter:blur(1px);
+
+
+}
+.h-testimonial{
+    margin: 25px;
+}
+
+.testimonial-section{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimonial-zone1{
+    height: 80vh;
+    width: 60%;
+    /* border: 2px solid red; */
+    padding: 7%;
+    font-size: 20px;
+    color: rgb(197, 197, 197);
+
+
+}
+.testimonial-zone2{
+    height: 80vh;
+    width: 40%;
+    /* border: 2px solid red; */
+
+}
+.contact-section{
+    height:55vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 37, 42);
+    align-items: center;
+    padding: 5%;
+    flex-wrap: wrap;
+    position: relative;
+    /* border: 5px solid rgb(255, 218, 36); */
+
+
+
+
+}
+.contact-div{
+    height:40px;
+    width: 250px;
+    /* border: 2px solid red; */
+    margin: 5px;
+    background-color:rgb(50, 50, 50) ;
+    border-radius: 6px;
+    padding: 8px 0px;
+    color: rgb(255, 218, 36);
+    display: flex;
+    justify-content: center;
+
+}
+.contact-div:hover{
+    background-color: rgb(34, 32, 32);
+}
+.h-contactme{
+    position:absolute;
+    left: 40%;
+    top: -35px;
+    
+}
+.material-symbols-outlined{
+    color: white;
+    margin: 0px 5px;
+
+}
+
+.salutation{
+    height:30vh;
+    background-color: rgb(50, 50, 50);
+    font-size: 30px;
+    color:rgb(255, 218, 36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.input-size{
+    height: 40px;
+    width: 44%;
+    margin: 4px;
+    background-color:rgb(50, 50, 50) ;
+    border: none;
+    padding: 1px 4px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+.form-email{
+    width: 400px;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+
+}
+.form-email form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.btn-sent{
+    padding: 4px;
+    height: 30px;
+    width: 80px;
+    border-radius: 6px;
+    background-color:rgb(255, 218, 36);
+    border: none;
+    margin-top: 10px;
+}
+@media (max-width:700px){
+    .my-image {
+        height: 300px;
+    }
+    .my-info {
+        font-size: 15px;
+    }
+    .my-name{
+        font-size:29px;
+    }
+    .h-contactme{
+        left: 30%;
+        top: -35px;
+    }
+    .line {
+        height: 195px;
+        
+    }
+    .h-same {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width:600px){
+    .testimonial-zone2{
+        display: none;
+    }
+    .testimonial-zone1{
+        width: 100%;
+    }
+    .information-section{
+        flex-direction: column;
+    }
+    .my-info {
+        font-size: 20px;
+    }
+    .my-name{
+        font-size:34px;
+    }
+    .line {
+        height: 225px;
+        
+    }
+    .project-card {
+        height: 200px;
+        width: 200px;
+    
+    }
+    .show-project{
+        height: 200px;
+        width: 200px;}
+    
+}
+
+@media (max-width:415px){
+    .line {
+        height: 245px;
+        
+    }
+    .h-contactme{
+        left: 20%;
+        top: -25px;
+    }
+
+
+}
+

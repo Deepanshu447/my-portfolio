@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            position: relative;
+        
+
+            /* z-index: 3; */
+        }
+        .container:hover .green{
+            z-index: 8;
+
+        }
+        .red{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(255, 0, 0);
+            position: absolute;
+            z-index: 7;
+
+        }
+        .green{
+            height: 200px;
+            width: 200px;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.125);
+            backdrop-filter: blur(10px);
+            /* display: none; */
+            z-index:6;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red"></div>
+        <div class="green">dfnsdfjs
+            <button>jdfksdjf</button>
+        </div>
+    </div>
+    
+</body>
+</html>
